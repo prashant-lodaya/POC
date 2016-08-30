@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 
--<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
 
 <modelVersion>4.0.0</modelVersion>
 
@@ -17,7 +17,7 @@
 <url>http://maven.apache.org</url>
 
 
--<properties>
+<properties>
 
 <spring.version>3.2.8.RELEASE</spring.version>
 
@@ -30,14 +30,13 @@
 </properties>
 
 
--<dependencies>
+<dependencies>
 
 <!-- Spring 3 dependencies -->
 
 
 
--<dependency>
-
+<dependency>
 <groupId>org.springframework</groupId>
 
 <artifactId>spring-core</artifactId>
@@ -47,7 +46,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>org.springframework</groupId>
 
@@ -58,7 +57,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>org.springframework</groupId>
 
@@ -69,7 +68,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>com.infy</groupId>
 
@@ -83,7 +82,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>org.codehaus.jackson</groupId>
 
@@ -97,7 +96,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>junit</groupId>
 
@@ -110,7 +109,7 @@
 </dependency>
 
 
--<dependency>
+<dependency>
 
 <groupId>org.springframework</groupId>
 
@@ -124,7 +123,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>net.bull.javamelody</groupId>
 
@@ -138,7 +137,7 @@
 
 
 
--<dependency>
+<dependency>
 
 <groupId>com.lowagie</groupId>
 
@@ -147,10 +146,10 @@
 <version>2.1.7</version>
 
 
--<exclusions>
+<exclusions>
 
 
--<exclusion>
+<exclusion>
 
 <artifactId>bcmail-jdk14</artifactId>
 
@@ -159,7 +158,7 @@
 </exclusion>
 
 
--<exclusion>
+<exclusion>
 
 <artifactId>bcprov-jdk14</artifactId>
 
@@ -168,7 +167,7 @@
 </exclusion>
 
 
--<exclusion>
+<exclusion>
 
 <artifactId>bctsp-jdk14</artifactId>
 
@@ -183,7 +182,7 @@
 </dependencies>
 
 
--<build>
+<build>
 
 <finalName>SpringMVC</finalName>
 
@@ -192,10 +191,10 @@
 <testSourceDirectory>${basedir}/src/main/java/test</testSourceDirectory>
 
 
--<plugins>
+<plugins>
 
 
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -204,7 +203,7 @@
 <version>2.18.1</version>
 
 
--<configuration>
+<configuration>
 
 <!-- Sets the VM argument line used when unit tests are run. -->
 
@@ -216,7 +215,7 @@
 </plugin>
 
 
--<plugin>
+<plugin>
 
 <groupId>org.apache.maven.plugins</groupId>
 
@@ -225,7 +224,7 @@
 <version>2.3.2</version>
 
 
--<configuration>
+<configuration>
 
 <source>${jdk.version}</source>
 
